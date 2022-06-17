@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        我疯了
+    </title>
+    <style>
+        body{
+            font-size: 200%;
+        }
+        button{
+            font-size: 44px;
+            font-family: cursive;
+            font-weight: bold;
+            color: darkblue;
+            background-color: rgb(164, 219, 250);
+            width: 600px;
+            height: 100px;
+            border-radius: 30px;
+        }
+        button:hover{
+            font-size: 55px;
+            font-weight: bolder;
+            color: darkred;
+            background-color: azure;
+        }
+        .qq{
+            color: cornflowerblue;
+            font-family:serif;
+        }
+        body{
+            
+            background-image: url(https://img1.baidu.com/it/u=2330730705,273741595&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=359);
+        }
+    </style>
+</head>
+<html>
+    <body>
+        
+        <h1 class="qq">让我看看是谁疯了</h1>
+        <button id="xixi" type="button" onclick="myfunction()">点击收获惊喜</button>
+        <h2 id="demo">当你以为这里是一句废话时</h2>
+        <script>
+           function myfunction(){
+               var x ="我要跟你分享徐思逸喜欢你这件事"
+               document.getElementById("demo").innerHTML=x;
+               document.getElementById("xixi").innerHTML="徐馨蕾专属表白"
+           }
+        </script>
+    </body>
+</html>
